@@ -1,0 +1,19 @@
+<h1>Crear producto</h1>
+<form style="display: flex; flex-direction: column;">
+    <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Precio</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <label>Imágen</label>
+    <div style="margin-bottom: 20px;">
+        <input type="file">
+    </div>
+    <div mat-dialog-actions>
+        <button mat-button mat-dialog-close>Cancelar</button>
+        <button class="btn" mat-raised-button color="primary" cdkFocusInitial mat-dialog-close>Crear</button>
+      </div>
+</form>

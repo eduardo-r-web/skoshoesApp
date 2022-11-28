@@ -1,0 +1,23 @@
+<div class="container">
+    
+    <button class="btn" mat-raised-button color="primary" (click)="openDialog()">Crear producto</button>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products; let i = index">
+                <td>{{i+1}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td><button mat-flat-button color="warn">Eliminar</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
