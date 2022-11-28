@@ -12,6 +12,21 @@ export class UsersService {
       role: 'Administrador'
     },
     {
+      username: 'michael mora',
+      password: '123456',
+      role: 'Administrador'
+    },
+    {
+      username: 'jhon leon',
+      password: '123456',
+      role: 'Administrador'
+    },
+    {
+      username: 'cristhian sierra',
+      password: '123456',
+      role: 'Administrador'
+    },
+    {
       username: 'prueba',
       password: '123456',
       role: 'Vendedor'
